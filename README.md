@@ -95,7 +95,7 @@
                 <div><b>Nước chấm:</b> Linh hồn của món ăn...</div>
                 <div><b>Rau sống:</b> Gồm xà lách, kinh giới, húng quế...</div>
             </div>
-            <img src="bun-cha-ingredients.jpg" alt="Nguyên liệu bún chả">
+           <img src="https://tophanoiaz.com/wp-content/uploads/2023/09/hinh-anh-bun-cha-ha-noi_19.jpg" alt="Hình ảnh bún chả chấm" width="600" height="344" >
         </section>
         <section class="section">
             <h2>4. Cách chế biến bún chả Hà Nội</h2>
