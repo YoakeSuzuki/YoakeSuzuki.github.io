@@ -13,7 +13,7 @@
             background-color: #f8f8f8;
         }
         header {
-            background: url('https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-chuan-vi-ha-thanh-202112211447480469.jpg') center/cover no-repeat;
+            background: url('https://www.seriouseats.com/thmb/J0g7JWjk9r6CHESo1CIrD1BfGd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VyTran-BunChaHanoi-19-f623913c6ef34a9185bcd6e5680c545f.jpg') center/cover no-repeat;
             color: white;
             text-align: center;
             padding: 60px 20px;
