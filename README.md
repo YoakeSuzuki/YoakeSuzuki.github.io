@@ -108,7 +108,7 @@
                 <div><b>Nướng chả:</b> Nướng trên than hoa...</div>
                 <div><b>Pha nước chấm:</b> Hòa tan nước mắm, đường...</div>
             </div>
-            <img src="https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-202112211431417496.jpg" width="600" height="344" >
+            <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/514/078/products/bun-cha-ha-noi-day-nghe-rosa-bien-hoa-dong-nai-2-2ddcf793-578c-4f66-a848-bcf172ef558f-5886eacf-3530-4e01-ad93-2502ab5252f4.jpg?v=1720184022820" width="600" height="344" >
         </section>
         <section class="quote">
             "Bún chả Hà Nội không chỉ là một món ăn ngon mà còn là niềm tự hào của ẩm thực Việt Nam!"
