@@ -147,20 +147,17 @@
 <div class="overlay" id="overlay">
     <img id="overlayImg" src="" alt="Zoomed Image">
 </div>
-
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const images = document.querySelectorAll(".section img");
         const overlay = document.getElementById("overlay");
         const overlayImg = document.getElementById("overlayImg");
-
         images.forEach(img => {
             img.addEventListener("click", function () {
                 overlayImg.src = this.src;
                 overlay.style.display = "flex";
             });
         });
-
         overlay.addEventListener("click", function () {
             overlay.style.display = "none";
         });
