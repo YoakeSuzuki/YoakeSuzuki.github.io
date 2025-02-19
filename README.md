@@ -124,5 +124,55 @@
     <footer>
         &copy; 2025 - Bún Chả Hà Nội | Designed with ❤️ by LeBinhMinh
     </footer>
-</body> 
-</html> 
+    <style>
+    .zoomed {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1.5);
+        max-width: 90%;
+        max-height: 90%;
+        z-index: 1000;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        display: none;
+    }
+    </style>
+    <div class="overlay"></div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const images = document.querySelectorAll(".section img");
+        const overlay = document.querySelector(".overlay");
+        images.forEach(img => {
+            img.addEventListener("click", function() {
+                if (this.classList.contains("zoomed")) {
+                    this.classList.remove("zoomed");
+                    overlay.style.display = "none";
+                } else {
+                    document.querySelectorAll(".zoomed").forEach(zoomedImg => {
+                        zoomedImg.classList.remove("zoomed");
+                    });
+                    this.classList.add("zoomed");
+                    overlay.style.display = "block";
+                }
+            });
+        });
+        overlay.addEventListener("click", function() {
+            document.querySelectorAll(".zoomed").forEach(zoomedImg => {
+                zoomedImg.classList.remove("zoomed");
+            });
+            overlay.style.display = "none";
+        });
+    });
+</script>
+</body>
+</html>
