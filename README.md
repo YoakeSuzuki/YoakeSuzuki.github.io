@@ -92,9 +92,9 @@
         <section class="section">
             <h2>3. Thành phần chính của bún chả</h2>
             <div class="ingredients">
-                <div><b>Bún tươi:</b> Bún sợi nhỏ, mềm...</div>
-                <div><b>Chả nướng:</b> Gồm chả viên và chả miếng...</div>
-                <div><b>Nước chấm:</b> Linh hồn của món ăn...</div>
+                <div><b>Bún tươi:</b> Bún sợi nhỏ, mềm </div>
+                <div><b>Chả nướng:</b> Gồm chả viên và chả miếng </div>
+                <div><b>Nước chấm:</b> Linh hồn của món ăn </div>
                 <div><b>Rau sống:</b> Gồm xà lách, kinh giới, húng quế...</div>
             </div>
            <img src="https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-8_760x529.jpg" style="width: 100%; height: auto; display: block;" >
@@ -103,9 +103,9 @@
             <h2>4. Cách chế biến bún chả Hà Nội</h2>
             <div class="steps">
                 <div><b>Chuẩn bị nguyên liệu:</b> 500g thịt ba chỉ...</div>
-                <div><b>Ướp thịt:</b> Thịt ba chỉ thái miếng...</div>
-                <div><b>Nướng chả:</b> Nướng trên than hoa...</div>
-                <div><b>Pha nước chấm:</b> Hòa tan nước mắm, đường...</div>
+                <div><b>Ướp thịt:</b> Thịt ba chỉ thái miếng rồi đem ướp </div>
+                <div><b>Nướng chả:</b> Nướng trên than hoa thịt đã ướp </div>
+                <div><b>Pha nước chấm:</b> Hòa tan nước mắm, đường và vài nguyên liệu</div>
             </div>
             <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/514/078/products/bun-cha-ha-noi-day-nghe-rosa-bien-hoa-dong-nai-2-2ddcf793-578c-4f66-a848-bcf172ef558f-5886eacf-3530-4e01-ad93-2502ab5252f4.jpg?v=1720184022820" style="width: 100%; height: auto; display: block;" >
         </section>
