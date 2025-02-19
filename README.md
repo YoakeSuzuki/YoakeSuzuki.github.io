@@ -124,52 +124,44 @@
     <footer>
         &copy; 2025 - Bún Chả Hà Nội | Designed with ❤️ by LeBinhMinh
     </footer>
-    <style>
-    .zoomed {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) scale(1.5);
-        max-width: 90%;
-        max-height: 90%;
-        z-index: 1000;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        transition: transform 0.3s ease-in-out;
-    }
+   <style>
     .overlay {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 999;
+        background: rgba(0, 0, 0, 0.8);
         display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
     }
-    </style>
-    <div class="overlay"></div>
+    .overlay img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+</style>
+<div class="overlay" id="overlay">
+    <img id="overlayImg" src="" alt="Zoomed Image">
+</div>
+
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         const images = document.querySelectorAll(".section img");
-        const overlay = document.querySelector(".overlay");
+        const overlay = document.getElementById("overlay");
+        const overlayImg = document.getElementById("overlayImg");
+
         images.forEach(img => {
-            img.addEventListener("click", function() {
-                if (this.classList.contains("zoomed")) {
-                    this.classList.remove("zoomed");
-                    overlay.style.display = "none";
-                } else {
-                    document.querySelectorAll(".zoomed").forEach(zoomedImg => {
-                        zoomedImg.classList.remove("zoomed");
-                    });
-                    this.classList.add("zoomed");
-                    overlay.style.display = "block";
-                }
+            img.addEventListener("click", function () {
+                overlayImg.src = this.src;
+                overlay.style.display = "flex";
             });
         });
-        overlay.addEventListener("click", function() {
-            document.querySelectorAll(".zoomed").forEach(zoomedImg => {
-                zoomedImg.classList.remove("zoomed");
-            });
+
+        overlay.addEventListener("click", function () {
             overlay.style.display = "none";
         });
     });
