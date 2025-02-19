@@ -1,4 +1,3 @@
-
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,7 @@
             background-color: #f8f8f8;
         }
         header {
-            background: <img scr=" https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-chuan-vi-ha-thanh-202112211447480469.jpg" center/cover no-repeat;
+            background: url('https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-chuan-vi-ha-thanh-202112211447480469.jpg') center/cover no-repeat;
             color: white;
             text-align: center;
             padding: 60px 20px;
