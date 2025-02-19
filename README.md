@@ -111,7 +111,7 @@
             <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/514/078/products/bun-cha-ha-noi-day-nghe-rosa-bien-hoa-dong-nai-2-2ddcf793-578c-4f66-a848-bcf172ef558f-5886eacf-3530-4e01-ad93-2502ab5252f4.jpg?v=1720184022820" width="600" height="344" >
         </section>
         <section class="quote">
-            "Bún chả Hà Nội không chỉ là một món ăn ngon mà còn là niềm tự hào của ẩm thực Việt Nam!"
+            "Bún chả Hà Nội không chỉ là một món ăn ngon mà còn mang đậm bản sắc văn hóa của người dân Thủ đô. Với sự kết hợp hài hòa giữa các nguyên liệu, bún chả xứng đáng là một trong những món ăn đặc trưng nhất của ẩm thực Việt Nam, thu hút không chỉ thực khách trong nước mà cả bạn bè quốc tế. Từ một món ăn dân dã vỉa hè, bún chả đã vươn mình ra thế giới, trở thành niềm tự hào của ẩm thực Hà Nội."
         </section>
         <section class="section">
             <h2>5. Địa điểm thưởng thức bún chả ngon tại Hà Nội</h2>
