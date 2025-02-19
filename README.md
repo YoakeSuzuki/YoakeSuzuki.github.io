@@ -138,8 +138,8 @@
         z-index: 1000;
     }
     .overlay img {
-        max-width: 120%;
-        max-height: 120%;
+        max-width: 220%;
+        max-height: 220%;
         border-radius: 10px;
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     }
