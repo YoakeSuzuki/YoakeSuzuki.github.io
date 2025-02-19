@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: #f8f8f8;
-            }
+        }
         header {
             background: url('https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-chuan-vi-ha-thanh-202112211447480469.jpg') center/cover no-repeat;
             color: white;
@@ -20,7 +20,11 @@
             font-size: 2em;
             font-weight: bold;
             text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-            }
+            height: 300px
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .container {
             width: 80%;
             margin: auto;
@@ -28,29 +32,29 @@
             background: white;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            }
+        }
         h2 {
             color: #d9534f;
             border-left: 5px solid #d9534f;
             padding-left: 15px;
-            }
+        }
         .section img {
             width: 100%;
             border-radius: 10px;
             margin: 20px 0;
             transition: transform 0.3s;
-            }
+        }
         .section img:hover {
             transform: scale(1.05);
-            }
+        }
         .ingredients, .steps {
             display: flex;
             flex-wrap: wrap;
-            }
+        }
         .ingredients div, .steps div {
             flex: 1;
             padding: 10px;
-            }
+        }
         .quote {
             background: #d9534f;
             color: white;
@@ -59,14 +63,14 @@
             font-style: italic;
             margin: 20px 0;
             border-radius: 10px;
-            }
+          }
         footer {
             background: #333;
             color: white;
             text-align: center;
             padding: 10px;
             margin-top: 20px;
-             }
+         }
     </style>
 </head>
 <body>
