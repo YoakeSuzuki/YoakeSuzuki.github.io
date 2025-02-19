@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -120,7 +120,7 @@
         </section>
     </div>
     <footer>
-        &copy; 2025 - Bún Chả Hà Nội | Designed with ❤️ by Suzu
+        &copy; 2025 - Bún Chả Hà Nội | Designed with ❤️ by LeBinhMinh
     </footer>
 </body> 
 </html> 
