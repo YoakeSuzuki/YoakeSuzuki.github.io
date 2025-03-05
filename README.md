@@ -73,6 +73,14 @@
     </style>
 </head>
 <body>
+    <nav>
+    <ul>
+        <li><a href="#gioi-thieu">1. Giới thiệu</a></li>
+        <li><a href="#nguon-goc">2. Nguồn gốc</a></li>
+        <li><a href="#thanh-phan">3. Thành phần</a></li>
+        <li><a href="#che-bien">4. Chế biến</a></li>
+    </ul>
+</nav>
     <header>
         Bún Chả Hà Nội – Tinh Hoa Ẩm Thực Thủ Đô
     </header>
