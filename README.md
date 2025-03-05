@@ -148,7 +148,7 @@
     <img id="overlayImg" src="" alt="Zoomed Image">
 </div>
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
         const images = document.querySelectorAll(".section img");
         const overlay = document.getElementById("overlay");
         const overlayImg = document.getElementById("overlayImg");
@@ -164,3 +164,4 @@
     });
 </script>
 </body>
+</html>
